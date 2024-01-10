@@ -1,3 +1,3 @@
 -- Select existed colors.
 SELECT * FROM VegetablesAndFruits 
-WHERE type = 'fruit' AND color = 'red';
+WHERE type = 'vegetable' AND color = 'green';
