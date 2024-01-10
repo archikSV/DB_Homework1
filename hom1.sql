@@ -1,3 +1,3 @@
 -- Select existed colors.
-SELECT DISTINCT color FROM VegetablesAndFruits 
-WHERE color IS NOT NULL;
+SELECT * FROM VegetablesAndFruits 
+WHERE type = 'fruit' AND color = 'red';
