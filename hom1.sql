@@ -1,2 +1,2 @@
--- Select whole data. Fruits filter.
-SELECT * FROM VegetablesAndFruits WHERE type = 'fruit';
+-- Select names.
+SELECT name FROM VegetablesAndFruits;
